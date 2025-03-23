@@ -1,9 +1,13 @@
 <script setup>
 
+import BarrraDeNavegacion from './components/BarrraDeNavegacion.vue';
 import Carrusel from './components/Carrusel.vue';
 </script>
 
 <template>
+  <div>
+    <BarrraDeNavegacion/>
+  </div>
   <div>
     <Carrusel/>
   </div>
