@@ -3,6 +3,7 @@
 import BarrraDeNavegacion from './components/BarrraDeNavegacion.vue';
 import Descripcion from './components/Descripcion.vue';
 import Carrusel from './components/Carrusel.vue';
+import PieDePagina from './components/PieDePagina.vue';
 </script>
 
 <template>
@@ -14,6 +15,9 @@ import Carrusel from './components/Carrusel.vue';
   </div>
   <div>
     <Carrusel/>
+  </div>
+  <div>
+    <PieDePagina/>
   </div>
   
   <HelloWorld msg="Vite + Vue" />
